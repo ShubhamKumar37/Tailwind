@@ -14,6 +14,27 @@
             padding-top: 5rem;
             padding-bottom: 10rem;
         }
+
+        .Company_Logo_Scroll
+        {
+            animation: Move_Image 15s linear infinite;
+        }
+
+        @keyframes Move_Image
+        {
+            0%
+            {
+                top: 0;
+            }
+            50%
+            {
+                top: -50%;
+            }
+            100%
+            {
+                top: 0;
+            }
+        }
     </style>
 </head>
 
@@ -708,10 +729,10 @@
 
     <!-- Join Razorpay Section -->
     <section class="w-full bg-[#f5f9fe] relative pt-[10rem] -mt-[7rem] z-[2]">
-        <div class="w-[60%] flex mx-auto max-h-[30rem] gap-5">
+        <div class="w-[65%] flex mx-auto max-h-[30rem] gap-5 pb-[10rem]">
             <!-- Left Part -->
             <div class="flex flex-col justify-center">
-                <div class="flex flex-col gap-2 w-[30rem]">
+                <div class="flex flex-col gap-2 w-[27rem]">
                     <h3 class="text-xl font-bold">Join the 50,00,000+ buisness using Razorpay</h3>
                     <div class="left-0 h-1 w-8 bg-green-500 rounded my-3"></div>
                     <p class="pb-5">we make it easier for you to focus on building great products while we work on simplifing your payments . Become one of us by joining thousands of our happy user and Simplify the online payment experience for your customers.</p>
@@ -720,10 +741,77 @@
             </div>
 
             <!-- Right Part -->
-            <div>
-                <img src="./Images/comanies.png">
+            <div class="h-[400px] w-[409px] overflow-y-hidden relative">
+                <div style="background: linear-gradient(180deg, #f4f8ff, #fff0);" class="absolute top-0 h-[5rem] w-full z-10"></div>
+                <img src="./Images/comanies.png" loading="lazy" class="absolute Company_Logo_Scroll">
+                <div style="background: linear-gradient(0deg, #f4f8ff, #fff0);" class="absolute bottom-0 h-[5rem] w-full z-10"></div>
+            </div> 
+        </div>
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="relative mt-[5rem] w-[70%] mx-auto mb-[20rem] flex flex-col gap-6">
+        <!-- Upper part -->
+        <div class=" flex flex-col items-center mx-auto relative">
+            <h3 class="text-xl font-bold text-center">An Experience <br> People Love to Talk About</h3>
+            <div class="left-0 h-1 w-6 bg-green-500 rounded mt-3"></div>
+        </div>
+
+        <!-- Mid part -->
+        <div class="relative w-full flex gap-2 justify-between mt-14">
+            <!-- Left arrow button -->
+            <div class="flex items-center">
+                <!-- Button Structure -->
+                <div class="flex justify-center items-center w-[4rem] h-[4rem] bg-slate-200 rounded-full cursor-pointer">
+                    <div class="flex justify-center items-center  w-[70%] h-[70%] bg-slate-300 rounded-full bg-blend-multiply">
+                        <p class="rotate-180">&#10140;</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Main Testimonial Part -->
+            <div class="relative flex items-center justify-between w-[70%] -ml-5 mt-7">
+                <!-- Left Image -->
+                <div>
+                    <img src="./Images/feature-section1-dottedrows.png" class="absolute top-[-87px] -left-[7.8rem] w-[10rem]">
+                    <img src="./Images/testimonial.jpg" class="w-[15rem] h-[15rem] rounded-lg">
+                </div>
+                
+                <!-- Right Content -->
+                <div class="mr-10">
+                    <img src="./Images/quotes.svg" class="w-[2rem]">
+                    <h2 class="text-2xl opacity-90">Readymade Closed Wallet<br> Solution For Quick Refunds</h2>
+                    <a href="#" class="italic opacity-80 underline">Learn More</a>
+                    <h2 class="font-bold text-2xl">Lorem Ipsum</h2>
+                    <p>CEO, XYZ Engineering Company</p>
+                    <img src="./Images/fake-company-logo.png" class="w-[3rem]">
+                </div>
+                
+            </div>
+            <!-- Right arrow button -->
+            <div class="flex items-center">
+                <!-- Button Structure -->
+                <div class="flex justify-center items-center w-[4rem] h-[4rem] bg-slate-200 rounded-full cursor-pointer">
+                    <div class="flex justify-center items-center  w-[70%] h-[70%] bg-slate-300 rounded-full bg-blend-multiply">
+                        <p>&#10140;</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+        <!-- Lower part -->
+        <div class="relative flex justify-center mt-5">
+            <!-- 6 Dot button -->
+            <div class="flex gap-[5px]">
+                <div class="h-3 w-3 bg-blue-400 rounded-full cursor-pointer"></div>
+                <div class="h-3 w-3 bg-slate-400 rounded-full cursor-pointer opacity-60"></div>
+                <div class="h-3 w-3 bg-slate-400 rounded-full cursor-pointer opacity-60"></div>
+                <div class="h-3 w-3 bg-slate-400 rounded-full cursor-pointer opacity-60"></div>
+                <div class="h-3 w-3 bg-slate-400 rounded-full cursor-pointer opacity-60"></div>
+                <div class="h-3 w-3 bg-slate-400 rounded-full cursor-pointer opacity-60"></div>
             </div>
         </div>
+
     </section>
 
 
