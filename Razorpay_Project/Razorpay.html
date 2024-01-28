@@ -852,73 +852,169 @@
         </div>
     </section>
 
-    <footer class="bg-[#F1F8FE] w-full h-full relative min-h-[40rem]">
+    <footer class="relative bg-[#F1F8FE] w-full min-h-[40rem] text-[13px] pb-8">
         <!-- Main Div -->
-        <div class="w-[70%] flex justify-between mx-auto relative h-full">
+        <div class="w-[70%] flex mx-auto relative h-full pt-9 gap-9 my-auto">
             <!-- Div1 -->
-            <div class="w-[30%] flex flex-col justify-between text-sm">
+            <div class="relative w-[40%] flex flex-col justify-evenly gap-8">
                 <img src="./Images/razorpayX.svg" class="bg-black rounded-lg w-[50%]">
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est, saepe nam tenetur reiciendis facilis praesentium quisquam omnis dolor cum porro optio ad cupiditate eaque a, illo adipisci aliquam eos?</p>
+                <p class="-mt-8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates est, saepe nam tenetur reiciendis facilis praesentium quisquam omnis dolor cum porro optio ad cupiditate eaque a, illo adipisci aliquam eos?</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, rerum ex. Doloremque asperiores facere aliquid autem soluta aperiam at a.</p>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id adipisci nihil temporibus expedita quae sequi incidunt fuga deleniti aperiam odio.</p>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni aliquam possimus placeat magnam impedit molestiae, eius cupiditate corrupti quis totam!</p>
 
-                <div>
-                    <h3>SUBSCRIBE TO OUR <br> NEWSLETTER</h3>
-                    <form>
-                        
+                <div class="relative flex flex-col gap-4">
+                    <h3 class="font-bold">SUBSCRIBE TO OUR <br> NEWSLETTER</h3>
+                    <form class="relative">
+                        <input type="email" placeholder="Enter your Email" id="Email_Input" class="w-full h-11">
+                        <label for="Email_Input"></label>
+                        <button class="absolute right-2 py-3 text-blue-500 hover:text-blue-800 hover:underline">Sign-up &#10004;</button>
                     </form>
-                    <div>
-                        <img>
-                        <img>
+                    <div class="flex justify-between mx-7">
+                        <img src="./Images/razorpayXicon.svg" class="w-[3rem]">
+                        <img src="./Images/razorpayXicon.svg" class="w-[3rem]">
                     </div>
                 </div>
             </div>
-
-            <!-- Div2 -->
-            <div>
-                <h3>BANKING PLUS</h3>
-                <ul>
-                    <li><a href="#">RazorpayX</a></li>
-                </ul>
-            </div>
             
-            <!-- Div3 -->
-            <div>
-
+            <div class="flex">
+                <!-- Div2 -->
+                <div class="relative flex flex-col w-[33%]">
+                    <h3 class="font-bold my-3">BANKING PLUS</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">RazorpayX</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Current Account</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Payouts Links</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Payouts</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Corporate Credit Cards</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">View Live Demo</a><span class="w-8 p-2 py-1 text-white rounded-md cursor-pointer ml-3 bg-green-400 ">NEW</span></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">LENDING</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Razorpay Capital</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Instant Settlement</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Working Capital Loans</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Marketplace Instant Settlements</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Corporate Credit Cards</a></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">RISK & FRAUD</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Third Watch</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">PrePay CoD</a><span class="w-8 p-2 py-1 text-white rounded-md cursor-pointer ml-3 bg-green-400 ">NEW</span></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">BEING A PARTNER</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Refer and Earn</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Onboarding APIs</a></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">MORE</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Route</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Invoice</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Freelancer Payements</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">International</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Flash Checkout</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">UPI</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">ePOS</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Checkout Demo</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">RazorpayX Payroll</a></li>
+                    </ul>
+                </div>
                 
-            </div>
-            
-            <!-- Div4 -->
-            <div>
-                <h3></h3>
-                <ul>
-                    <li></li>
-                </ul>
+                <!-- Div3 -->
+                <div class="relative flex flex-col w-[33%]">
+                    <h3 class="font-bold my-3">ACCEPT PAYMENTS</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Payment Gateway</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Payment Pages</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Payment Links</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">QR Codes</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Subscriptions</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Smart Collet</a></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">DEVELOPERS</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Docs</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Integrations</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">API Reference</a></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">RESOURCES</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Blog</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Customers Stories</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Events</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Chargeback Guide</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Settlement Guide</a></li>
+                    </ul>
 
-                <div>
-                    <h3>FIND US ONLINE</h3>
-
+                    <h3 class="font-bold my-3">SOLUTIONS</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Education</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">E-Commerce</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Saas</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">BFSI</a></li>
+                    </ul>
+                    
+                    <h3 class="font-bold my-3">FREE TOOLS</h3>
+                    <ul class="flex flex-col gap-3">
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">GST Calculator</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Online TDS Payement</a></li>
+                        <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">GST Number Search</a><span class="w-8 p-2 py-1 text-white rounded-md cursor-pointer ml-3 bg-green-400 ">NEW</span></li>
+                    </ul>
+                </div>
+                
+                <!-- Div4 -->
+                <div class="relative flex flex-col w-[33%]">
                     <div>
-                        <img>
-                        <img>
-                        <img>
-                        <img>
-                        <img>
-                    </div>
+                        <h3 class="font-bold my-3">COMPANY</h3>
+                        <ul class="flex flex-col gap-3">
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">About us</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Carrers</a><span class="w-8 p-2 py-1 text-white rounded-md cursor-pointer ml-3 bg-green-400 ">Wr're Hiring!</span></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Terms of Use</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Privacy Policy</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Griavance Redressal</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Responsible Disclosure</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Partners</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">White Papers</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Corporate Information</a></li>
+                        </ul>
 
-                    <h3>REGD. OFFICE ADDRESS</h3>
-
-                    <p>A product of Enzipe.<br>
-
-                        By Developing 75+ online tools for students, writers and SEO experts, PREPOSTSEO is one of the top free tools websites.<br>
+                        <h3 class="font-bold my-3">FREE TOOLS</h3>
+                        <ul class="flex flex-col gap-3">
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Support</a></li>
+                            <li class="text-blue-500 font-bold "><a href="#" class="hover:underline">Knowledge base</a></li>
+                        </ul>
                         
-                        2024 © PrePost SEO</p>
-
-                    <p>&#169; Razorpay 2022 <br> All Rights Reserved</p>
+                        <h3 class="font-bold my-3">FIND US ONLINE</h3>
+                        
+                        <div class="flex gap-4">
+                            <img src="./Images/github-icon.svg" class="w-5">
+                            <img src="./Images/facebook-icon.svg" class="w-5">
+                            <img src="./Images/instagram-icon.svg" class="w-5">
+                            <img src="./Images/linkedin-icon.svg" class="w-5">
+                            <img src="./Images/twitter-icon.svg" class="w-5">
+                        </div>
+    
+                        <h3>REGD. OFFICE ADDRESS</h3>
+    
+                        <p>A product of Enzipe.<br>
+    
+                            By Developing 75+ online tools for students, writers and SEO experts, PREPOSTSEO is one of the top free tools websites.<br>
+                            
+                            2024 © PrePost SEO</p>
+    
+                        <p>&#169; Razorpay 2022 <br> All Rights Reserved</p>
+                    </div>
                 </div>
             </div>
+
         </div>
     </footer>
 
