@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord | A place where you and your buddy hangout</title>
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
     <div class="w-full relative overflow-x-hidden">
-        <nav class="bg-[#404EED] relative text-white p-4">
+        <nav class="bg-[#404EED] relative text-white p-4 px-5">
             <div class="max-w-[1200px] mx-auto flex flex-row justify-between">
                 <div>
                     <img src="./images/logo.svg" class="mt-1">
                 </div>
-    
+
                 <ul class="space-x-5 mt-2 hidden xl:flex xl:flex-row">
                     <li class="hover:underline">Download</li>
                     <li class="hover:underline">Nitro</li>
@@ -23,29 +25,104 @@
                     <li class="hover:underline">Blog</li>
                     <li class="hover:underline">Careers</li>
                 </ul>
-    
-                <button class="bg-white text-[#404EED] p-1 rounded-full px-3 hidden xl:flex xl:flex-row self-center cursor-pointer">Open Discord</button>
+
+                <button
+                    class="bg-white text-[#404EED] p-1 rounded-full px-3 hidden xl:flex xl:flex-row self-center cursor-pointer">Open
+                    Discord</button>
                 <div class="block xl:hidden font-bold text-4xl">=</div>
             </div>
         </nav>
 
         <!-- Hero Section -->
-        <section class="bg-[#404EED] relative text-white">
-            <img src="./images/Image0.svg" class="absolute right-0 top-0">
-            <img src="./images/Image1.svg" class="absolute right-0 left-0">
-            <img src="./images/Image2.svg" class="absolute left-0 top-0">
+        <section
+            class="bg-[#404EED] relative text-white pb-[14rem] sm:pb-[16rem] md:pb-[16rem] xl:pb-[14rem] pt-10 xl:py-[3rem] -top-1 px-5">
+            <img src="./images/Image0.svg" class="absolute right-0 left-0 bottom-0 object-cover z-[1] hidden xl:block">
+            <img src="./images/Image1.svg"
+                class="absolute hidden md:block md:right-[-150px] xl:block xl:right-[-87px] bottom-0 z-[1] w-[75%] xl:w-fit">
+            <img src="./images/Image2.svg"
+                class="absolute left-[-81px] bottom-0 z-[1] xl:block md:hidden block w-[30rem] xl:w-[40rem]">
 
-            <div class="max-w-[1200px] relative mx-auto flex flex-col gap-7">
-                <h2 class="text-6xl font-bold scale-x-150 text-center">IMAGINE A PLACE...</h2>
-                <p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a handful of friends can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
+            <div
+                class="max-w-[1200px] relative ml-5 space-y-[2rem] xl:mx-auto xl:flex xl:flex-col xl:gap-7 items-center scale-105 z-[2]">
+                <h2 class="text-6xl font-extrabold scale-y-90 text-start xl:text-center">IMAGINE A PLACE...</h2>
+                <p class=" w-full md:w-[70%] xl:w-[65%] xl:text-center xl:text-lg text-sm">...where you can belong to a
+                    school club, a gaming group, or a worldwide art community. Where just you and a handful of friends
+                    can spend time together. A place that makes it easy to talk every day and hang out more often.</p>
 
-                <div>
-                    <button><span>&#8595;</span>Download for Windows</button>
-                    <button>Open Discord in your browser</button>
+                <div class="flex flex-row space-x-0 xl:space-x-11">
+                    <button class="bg-white rounded-full px-5 p-3 mb-3 font-bold text-black hover:#5967EE "><span
+                            class="mr-3">&#8595;</span>Download for Windows</button>
+                    <button class="bg-[#282828] rounded-full px-5 p-3 mb-3 font-bold hidden xl:block">Open Discord in
+                        your browser</button>
                 </div>
             </div>
         </section>
+
+        <section class="relative mt-[8rem] px-5">
+            <div class="max-w-[1200px] mx-auto relative">
+                <!-- Upper Portion -->
+                <div class=" md:flex md:flex-row relative">
+                    <img src="./images/section1Image.svg" class="md:w-[50%] w-[100%]">
+                    
+                    <div class="ml-[2.5rem] lg:mx-[6.5rem] py-7 space-y-5 md:space-y-10">
+                        <h2 class="md:text-5xl text-xl font-bold">Create an invite-only place where you belong</h2>
+                        
+                        <p class="md:text-lg text-sm mr-5">
+                            Discord servers are organized into topic-based channels where you can collaborate, share,
+                            and just talk about your day without clogging up a group chat.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Center Portion -->
+                <div>
+                    <div>
+                        <h2>Where hanging out is easy</h2>
+                        
+                        <p>
+                            Grab a seat in a voice channel when you're free. Friends in your server can see you're
+                            around and instantly pop in to talk without having to call.
+                        </p>
+                    </div>
+                    
+                    <img src="./images/section2Image.svg">
+                </div>
+                
+                <!-- Lower Portion -->
+                <div>
+                    <img src="./images/section3Image.svg">
+                    
+                    <div>
+                        <h2>From few to a fandom</h2>
+                        
+                        <p>
+                            Get any community running with moderation tools and custom member access. Give members
+                            special powers, set up private channels, and more.
+                        </p>
+                    </div>
+                </div>
+                <!-- All Center Content Portion -->
+                <div>
+                    <div>
+                        <h2>RELIABLE TECH FOR STAYING CLOSE</h2>
+                        <p>Low-latency voice and video feels like you're in the same room. Wave hello over video, watch
+                            friends stream their games, or gather up and have a drawing session with screen share.</p>
+                    </div>
+                    
+                    <img src="./images/section4Image.svg">
+                    
+                    <img src="./images/section5Image.svg">
+                    
+                    <h2>Ready to start your journey?</h2>
+                    
+                    <button></button>
+                    
+                </div>
+            </div>
+        </section>
+        
     </div>
     
 </body>
+
 </html>
